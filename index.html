@@ -727,68 +727,7 @@
 </div>
 </div>
 
- <script type ="text/javascript">
-    $("document").ready(function() {
 
-   $("#LiHome").hover(function(){
-   $("#LiHome").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiHome").stop().animate({color:'white'},400,"easeOutQuad");});
- 
-   $("#LiAbout").hover(function(){
-   $("#LiAbout").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiAbout").stop().animate({color:'white'},400,"easeOutQuad");});
- 
-   $("#LiDrivers").hover(function(){
-   $("#LiDrivers").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiDrivers").stop().animate({color:'white'},400,"easeOutQuad");});
-
-   $("#LiGallery").hover(function(){
-   $("#LiGallery").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiGallery").stop().animate({color:'white'},400,"easeOutQuad");});
-
-   $("#LiSuccess").hover(function(){
-   $("#LiSuccess").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiSuccess").stop().animate({color:'white'},400,"easeOutQuad");});  
-
-   $("#LiMedia").hover(function(){
-   $("#LiMedia").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiMedia").stop().animate({color:'white'},400,"easeOutQuad");});
-
-   $("#LiForum").hover(function(){
-   $("#LiForum").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiForum").stop().animate({color:'white'},400,"easeOutQuad");});
-
-   $("#LiMenu").hover(function(){
-   $("#LiMenu").stop().animate({color:'black'},500,"easeOutQuad");}, function(){
-   $("#LiMenu").stop().animate({color:'white'},400,"easeOutQuad");});
-  });
-
-
-    $(function() {
-  $('a[href*="#"]:not([href="#"])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-      var target = $(this.hash);
-      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-      if (target.length) {
-        $('html, body').animate({
-          scrollTop: target.offset().top
-        }, 1000);
-        return false;
-      }
-    }
-  });
-});
-
-
-    $(".Container").on('click',function(){ 
-    $('nav ul').toggleClass('showing');});
-
-   function myFunction(x) {
-    x.classList.toggle("change");
-}
-
-
-  </script>
   
 </div>
 
